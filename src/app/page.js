@@ -1,6 +1,7 @@
 import Details from '@/components/Details'
 import Landing from '@/components/Landing'
 import Navbar from '@/components/Navbar'
+import Projects from '@/components/Projects'
 import React from 'react'
 
 function page() {
@@ -10,6 +11,7 @@ function page() {
       <Navbar/>
       <Landing/>
       <Details/>
+      <Projects/>
       </div>
     </div>
   )
