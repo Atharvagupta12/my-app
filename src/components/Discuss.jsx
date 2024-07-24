@@ -2,7 +2,7 @@ import React from 'react'
 
 function Discuss() {
   return (
-    <div className='w-full h-[50vh] bg-yellow-400 flex px-28 justify-between gap-10 text-white '>
+    <div className='w-full h-[50vh] bg-gradient-to-r from-yellow-500 from-40% to-lime-500 flex px-28 justify-between gap-10 text-white '>
       <div className="text mt-10 w-2/5">
          <h1 className='text-4xl py-10 font-bold w-1/2'>Let's Discuss Your Project</h1>
          <p className='text-sm font-semibold capitalize'>lets figure out how to create an effective application,

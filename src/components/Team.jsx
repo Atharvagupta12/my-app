@@ -2,7 +2,7 @@ import React from "react";
 
 function Team() {
   return (
-    <div className="w-full h-[60vh] flex justify-between gap-10 px-28 py-10 bg-slate-100 items-center">
+    <div className="w-full h-[60vh] flex justify-between gap-10 px-28 py-10 bg-slate-200 items-center">
       <div className="text w-1/2 py-10">
         <h1 className="text-4xl font-bold">Our Team</h1>
         <p className="font-medium text-md py-7">

@@ -3,7 +3,7 @@ import Image from "../app/assets/landing.png"
 
 function Landing() {
   return (
-    <div className=" w-full h-screen flex justify-between gap-20 bg-slate-100 px-28 py-40">
+    <div className=" w-full h-screen flex justify-between gap-10 bg-slate-200 pl-28 py-40">
       <div className="text w-1/2 h-[70vh] ">
         <div className="heading">
           <h1 className="text-4xl font-semibold">
@@ -61,8 +61,8 @@ function Landing() {
           </div>
         </div>
       </div>
-      <div className="image w-1/2 h-screen -my-48 ">
-      <img className="w-full h-full bg-cover -rotate-12" src={Image} alt="" />
+      <div className="image w-1/2 h-[100vh] -my-40 ">
+      <img className="w-full  z-999 h-full bg-cover " src="https://i.pinimg.com/564x/c0/95/5b/c0955bf64385b5cd73ac79d788fefd66.jpg" alt="" />
       </div>
     </div>
   );

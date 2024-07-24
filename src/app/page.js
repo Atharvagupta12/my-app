@@ -1,11 +1,14 @@
 import Application from '@/components/Application'
 import Details from '@/components/Details'
 import Discuss from '@/components/Discuss'
+import FAQ from '@/components/FAQ'
+import Footer from '@/components/Footer'
 import Landing from '@/components/Landing'
 import Navbar from '@/components/Navbar'
 import Projects from '@/components/Projects'
 import Team from '@/components/Team'
 import React from 'react'
+
 
 function page() {
   return (
@@ -18,6 +21,8 @@ function page() {
       <Discuss/>
       <Application/>
       <Team/>
+      <FAQ/>
+    
       </div>
     </div>
   )

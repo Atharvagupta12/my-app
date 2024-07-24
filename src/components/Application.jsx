@@ -1,4 +1,5 @@
 import React from "react";
+import { LuFileBarChart2 } from "react-icons/lu";
 
 function Application() {
   return (
@@ -9,21 +10,42 @@ function Application() {
       <div className="cardcontainer flex justify-between gap-5 ">
         <div className="cards w-1/3 flex flex-col gap-8 ">
           <div className="card w-full h-[22vh] flex flex-col items-center py-4 rounded-xl shadow-xl bg-zinc-100">
-            <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+            <div className="flex gap-2 items-center">
+              <div className="text-3xl ">
+                <LuFileBarChart2 />
+              </div>
+              <div>
+                <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+              </div>
+            </div>
             <p className="text-md px-8">
               We craft technical specs , aligning with your buisness, technology
               , and user requirements.
             </p>
           </div>
           <div className="card w-full h-[22vh] flex flex-col items-center py-4 rounded-xl shadow-xl bg-zinc-100">
-            <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+          <div className="flex gap-2 items-center">
+              <div className="text-3xl ">
+                <LuFileBarChart2 />
+              </div>
+              <div>
+                <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+              </div>
+            </div>
             <p className="text-md px-8">
               We craft technical specs , aligning with your buisness, technology
               , and user requirements.
             </p>
           </div>
           <div className="card w-full h-[22vh] flex flex-col items-center py-4 rounded-xl shadow-xl bg-zinc-100">
-            <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+          <div className="flex gap-2 items-center">
+              <div className="text-3xl ">
+                <LuFileBarChart2 />
+              </div>
+              <div>
+                <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+              </div>
+            </div>
             <p className="text-md px-8">
               We craft technical specs , aligning with your buisness, technology
               , and user requirements.
@@ -31,25 +53,50 @@ function Application() {
           </div>
         </div>
         <div className="Image h-[70vh] my-5 w-1/4  overflow-hidden ">
-<img className="h-full w-full" src="https://i.pinimg.com/564x/58/99/a2/5899a26d1b2b3e99511ca5b8db3bf92e.jpg" alt="" />
+          <img
+            className="h-full w-full"
+            src="https://i.pinimg.com/564x/58/99/a2/5899a26d1b2b3e99511ca5b8db3bf92e.jpg"
+            alt=""
+          />
         </div>
         <div className="cards w-1/3 flex flex-col gap-8 ">
           <div className="card w-full h-[22vh] flex flex-col items-center py-4 rounded-xl shadow-xl bg-zinc-100">
-            <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+          <div className="flex gap-2 items-center">
+              <div className="text-3xl ">
+                <LuFileBarChart2 />
+              </div>
+              <div>
+                <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+              </div>
+            </div>
             <p className="text-md px-8">
               We craft technical specs , aligning with your buisness, technology
               , and user requirements.
             </p>
           </div>
           <div className="card w-full h-[22vh] flex flex-col items-center py-4 rounded-xl shadow-xl bg-zinc-100">
-            <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+          <div className="flex gap-2 items-center">
+              <div className="text-3xl ">
+                <LuFileBarChart2 />
+              </div>
+              <div>
+                <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+              </div>
+            </div>
             <p className="text-md px-8">
               We craft technical specs , aligning with your buisness, technology
               , and user requirements.
             </p>
           </div>
           <div className="card w-full h-[22vh] flex flex-col items-center py-4 rounded-xl shadow-xl bg-zinc-100">
-            <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+          <div className="flex gap-2 items-center">
+              <div className="text-3xl ">
+                <LuFileBarChart2 />
+              </div>
+              <div>
+                <h1 className="text-lg py-5 font-semibold">Analysis</h1>
+              </div>
+            </div>
             <p className="text-md px-8">
               We craft technical specs , aligning with your buisness, technology
               , and user requirements.
@@ -57,7 +104,6 @@ function Application() {
           </div>
         </div>
       </div>
-      
     </div>
   );
 }

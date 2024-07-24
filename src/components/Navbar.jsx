@@ -9,9 +9,10 @@ function Navbar() {
       <div className="logo ">
         <h1 className="font-semibold text-lg">Logo</h1>
       </div>
-      <div className="links flex gap-6">
+      <div className="links flex gap-8">
         {["Services", "Media", "Cases", "FAQ", "Contact"].map((item, index) => (
           <a
+          href="#"
             key={index}
             className={`text-md  cursor-pointer font-medium`}
           >
