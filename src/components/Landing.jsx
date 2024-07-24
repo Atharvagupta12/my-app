@@ -1,8 +1,9 @@
 import React from "react";
+import Image from "../app/assets/landing.png"
 
 function Landing() {
   return (
-    <div className=" w-full h-screen bg-slate-100 px-28 py-40">
+    <div className=" w-full h-screen flex justify-between gap-20 bg-slate-100 px-28 py-40">
       <div className="text w-1/2 h-[70vh] ">
         <div className="heading">
           <h1 className="text-4xl font-semibold">
@@ -60,7 +61,9 @@ function Landing() {
           </div>
         </div>
       </div>
-      <div className="image w-1/2 h-screen"></div>
+      <div className="image w-1/2 h-screen -my-48 ">
+      <img className="w-full h-full bg-cover -rotate-12" src={Image} alt="" />
+      </div>
     </div>
   );
 }
