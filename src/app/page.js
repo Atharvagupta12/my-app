@@ -1,4 +1,5 @@
 import Details from '@/components/Details'
+import Discuss from '@/components/Discuss'
 import Landing from '@/components/Landing'
 import Navbar from '@/components/Navbar'
 import Projects from '@/components/Projects'
@@ -12,6 +13,7 @@ function page() {
       <Landing/>
       <Details/>
       <Projects/>
+      <Discuss/>
       </div>
     </div>
   )
