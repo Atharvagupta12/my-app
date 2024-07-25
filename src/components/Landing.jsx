@@ -3,9 +3,9 @@ import Image from "../app/assets/landing.png"
 
 function Landing() {
   return (
-    <div className=" w-full h-fit md:h-[100vh] md:flex justify-between gap-10 bg-slate-200 px-5 md:pl-28 md:py-40 py-32">
-      <div className="text md:w-1/2 w-full md:h-[70vh] ">
-        <div className="heading">
+    <div className=" w-full h-fit md:h-[100vh] md:flex justify-between items-center  gap-10 bg-slate-200 px-5 md:pl-28  pt-32  md:pt-0 py-10">
+      <div className="text md:w-1/2 w-full  md:h-[70vh] ">
+        <div className="heading md:pt-10">
           <h1 className="md:text-4xl text-3xl font-semibold">
             <span className="md:text-4xl text-3xl font-bold text-yellow-500">
               User Centric Excellence
