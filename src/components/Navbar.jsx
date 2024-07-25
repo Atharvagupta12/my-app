@@ -14,7 +14,7 @@ function Navbar() {
           <a
           href="#"
             key={index}
-            className={`text-md  cursor-pointer font-medium`}
+            className={`text-md hidden md:block  cursor-pointer font-medium`}
           >
             {item}
           </a>

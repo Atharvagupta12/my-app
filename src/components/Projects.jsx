@@ -8,12 +8,12 @@ import { IoShareSocialSharp } from "react-icons/io5";
 
 function Projects() {
   return (
-    <div className="w-full h-full bg-slate-200 px-28 py-20">
-      <h1 className="text-3xl font-bold w-1/3">
+    <div className="w-full h-full bg-slate-200 px-5 md:px-28 py-20">
+      <h1 className="text-3xl font-bold md:w-1/3">
         Developed more than <span className="text-green-600"> 100 </span>{" "}
         Projects in <span className="text-green-600"> 15 </span>Industries
       </h1>
-      <div className="icons p-10 flex gap-8">
+      <div className="icons p-5 md:p-10 flex gap-8">
         <div className="variety w-1/3 flex flex-col gap-5">
           <div className="flex gap-1 items-center">
             <div>
@@ -165,13 +165,13 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="projects w-1/2">
+      <div className="projects pt-5 md:pt-0 md:w-1/2">
         <h1 className="text-3xl font-bold ">Projects we are proud of </h1>
         <p className="text-sm font-semibold py-7">
           Our Software development company is truly proud of the wonderfull
           clients we have worked with. We enjoy a long-term partnership{" "}
         </p>
-        <div className="flex gap-4">
+        <div className="flex md:gap-4 gap-3">
           <h1 className="font-semibold underline underline-offset-4">
             Project 1{" "}
           </h1>
@@ -181,8 +181,8 @@ function Projects() {
         </div>
       </div>
 
-      <div className="w-full flex justify-between gap-10">
-        <div className="project1 w-1/2 pt-10">
+      <div className="w-full md:flex justify-between gap-10">
+        <div className="project1 md:w-1/2 pt-10">
           <h1 className="text-3xl font-bold "> Project 1</h1>
           <p className="text-sm font-semibold py-7">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic rem
@@ -218,18 +218,18 @@ function Projects() {
               <h2>Active Growth</h2>
             </div>
           </div>
-          <div className="images flex gap-8">
+          {/* <div className="images flex gap-8">
             <div className="w-28 h-10 mt-5">
               <img className=" w-full h-full bg-cover" src={Image1} alt="" />
             </div>
             <div className="w-28 h-10 mt-5">
               <img className="w-full h-full bg-cover" src={Image2} alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
-        <div className="image">
+        <div className="image pt-10 md:pt-0">
           <img
-            className="w-[40vw] h-[52vh] rounded  bg-red-100"
+            className="md:w-[40vw] h-[52vh] rounded-xl  bg-red-100"
             src="https://i.pinimg.com/564x/be/dc/65/bedc65964da8fda45a49d5af13e3c5ac.jpg"
             alt=""
           />

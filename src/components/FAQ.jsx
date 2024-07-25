@@ -5,10 +5,10 @@ import { IoMdCloseCircleOutline } from "react-icons/io";
 
 function FAQ() {
   return (
-    <div className="w-full h-full bg-white px-28  py-10">
-      <h1 className="text-4xl font-bold py-10">FAQ</h1>
-      <div className="flex justify-between gap-10 ">
-        <div className="w-1/2 h-full ">
+    <div className="w-full h-full bg-white md:px-28 px-5 py-10">
+      <h1 className="text-4xl font-bold md:py-10">FAQ</h1>
+      <div className="md:flex justify-between gap-10 ">
+        <div className="md:w-1/2 h-full ">
           <div>
             <div className="border-[1px] my-10 "></div>
             <div className="flex justify-between">
@@ -35,9 +35,9 @@ function FAQ() {
             <div className="border-[1px] my-10"></div>
           </div>
         </div>
-        <div className="w-1/2 h-full ">
+        <div className="md:w-1/2 h-full ">
           <div>
-            <div className="border-[1px] my-10"></div>
+            <div className="border-[1px] hidden md:block my-10"></div>
             <div className="flex justify-between">
               <h1 className="font-semibold text-lg">
               How long will development take?
