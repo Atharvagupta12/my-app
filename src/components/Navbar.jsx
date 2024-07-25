@@ -24,8 +24,8 @@ function Navbar() {
         <button className="text-green-700 md:block hidden px-8">+91 00000000</button>
         <button className="text-green-700  md:block hidden  ">Demo @gmail.com</button>
       </div>
-      <div className="navbt">
-        <button className="px-5 py-2 bg-lime-500 text-white font-semibold rounded-full md:hidden ">Contact Us</button>
+      <div className="navbt md:hidden">
+        <button className="px-5 py-2 bg-lime-500 text-white font-semibold rounded-full  ">Contact Us</button>
       </div>
     </div>
   );
