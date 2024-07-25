@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import Image1 from "../app/assets/app1.png";
-import Image2 from "../app/assets/app2.png";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaLandmark } from "react-icons/fa";
 import { IoShareSocialSharp } from "react-icons/io5";

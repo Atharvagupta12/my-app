@@ -1,5 +1,6 @@
 import React from "react";
 import { LuFileBarChart2 } from "react-icons/lu";
+import Image from "next/image";
 
 function Application() {
   return (

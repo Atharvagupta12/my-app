@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../app/assets/landing.png"
+import Image from "next/image";
 
 function Landing() {
   return (
